@@ -1,0 +1,10 @@
+export const ADD_WIDGET = "ADD_WIDGET";
+export const ADD_PAGE = "ADD_PAGE";
+export const UPDATE_PAGE_NUMBER = "UPDATE_PAGE_NUMBER";
+export const DELETE_PAGE = "DELETE_PAGE";
+export const INCREMENT_PAGE = "INCREMENT_PAGE";
+export const DECREMENT_PAGE = "DECREMENT_PAGE";
+export const ADD_PAYLOAD = "ADD_PAYLOAD";
+export const SAVE_EDITABLE = "SAVE_EDITABLE";
+export const DRAG_DROP = "DRAG_DROP"
+export const ADD_TEMPLATE = "ADD_TEMPLATE"

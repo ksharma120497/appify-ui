@@ -1,0 +1,1508 @@
+{
+  "icon": {
+    "tooltip": "The icon to be displayed.",
+    "placeholder": "eg.: star",
+    "info": "star, home, settings, label, radio, edit, mail, etc .. You can visit Flutter community site to see more examples",
+    "type": "string",
+    "field":"text"
+  },
+  "Icon": {
+    "tooltip": "The icon to be displayed.",
+    "placeholder": "eg.: star",
+    "info": "star, home, settings, label, radio, edit, mail, etc .. You can visit Flutter community site to see more examples",
+    "type": "string",
+    "field":"text"
+  },
+  "color": {
+    "tooltip": "The color to use when drawing the widget.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "size": {
+    "tooltip": "The size of the widget.",
+    "placeholder": "eg.: 10",
+    "info": "20, 30, 40, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "textAlign": {
+    "tooltip": "How the text should be aligned horizontally.",
+    "placeholder": "eg.: left",
+    "info": "center, left, right ,end ,justify, start",
+    "type": "string",
+    "field":["center", "left", "right", "end", "justify", "start"]
+  },
+  "top": {
+    "tooltip": "The distance of the widget's top edge from the top of the page.",
+    "placeholder": "eg.: 50",
+    "info": "50, 100, 150, etc. Enter the value comparing with previous widget in order to avoid overlapping of widgets",
+    "type": "number",
+    "field":"text"
+  },
+  "left": {
+    "tooltip": "The distance of the widget's left edge from the left of the page.",
+    "placeholder": "eg.: 50",
+    "info": "50, 100, 150, etc. Enter the value comparing with previous widget in order to avoid overlapping of widgets",
+    "type": "number",
+    "field":"text"
+  },
+  "height": {
+    "tooltip": "The widget's height.",
+    "placeholder": "eg.: 50",
+    "info": "50, 100, 150, etc. Enter the value comparing with previous widget in order to avoid overlapping of widgets",
+    "type": "number",
+    "field":"text"
+  },
+  "width": {
+    "tooltip": "The widget's width.",
+    "placeholder": "eg.: 50",
+    "info": "50, 100, 150, etc. Enter the value comparing with previous widget in order to avoid overlapping of widgets",
+    "type": "number",
+    "field":"text"
+  },
+  "splashColor": {
+    "tooltip": "This color appears on top of the button and spreads in an expanding circle beginning where the touch occurred.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "textColor": {
+    "tooltip": "The color of the text.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "text": {
+    "tooltip": "The text to be displayed",
+    "placeholder": "eg.: Hello",
+    "info": "Enter any text",
+    "type": "string",
+    "field":"text"
+  },
+  "disabledTextColor": {
+    "tooltip": "The color of the text when the button is disabled.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "disabledColor": {
+    "tooltip": "The color of the button's background when the button is disabled.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "onPressed": {
+    "tooltip": "The action that occurs when the button is clicked (Redirect to a specific page).",
+    "placeholder": "eg.:page2",
+    "info": "page3 or page4 or page5 or page6 or page7, etc. (Should be an existing page)",
+    "type": "string",
+    "field":"text"
+  },
+  "padding": {
+    "tooltip": "The amount of space around elements content.",
+    "placeholder": "eg.: 5",
+    "info": "2, 3, 4, 4, 5, etc. Can enter Any Integer",
+    "type": "number",
+    "field":"text"
+  },
+  "highlightColor": {
+    "tooltip": "The highlight indicates that the button is actively being pressed. It appears on top of the button's child and quickly spreads to fill the button, and then fades out.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "helpText": {
+    "tooltip": "The text that appears on the Time picker",
+    "placeholder": "eg.: help",
+    "info": "Enter any text ",
+    "type": "string",
+    "field":"text"
+  },
+  "cancelText": {
+    "tooltip": "The text that appears on cancel  button of Time picker",
+    "placeholder": "eg.: cancel",
+    "info": "Enter any text ",
+    "type": "string",
+    "field":"text"
+  },
+  "confirmText": {
+    "tooltip": "The text that appears on confirm button of Time picker",
+    "placeholder": "eg.: confirm",
+    "info": "Enter any text ",
+    "type": "string",
+    "field":"text"
+  },
+  "firstDate": {
+    "tooltip": "Date picker will start from this year.",
+    "placeholder": "eg.: 2021",
+    "info": "2000, 2001, 2002, 2003, 2004, etc. Year should always be a past year(Should be less that current year)",
+    "type": "number",
+    "field":"text"
+  },
+  "lastDate": {
+    "tooltip": "The Date picker will end on this year.",
+    "placeholder": "eg.: 2021",
+    "info": "2021, 2022, 2023, 2024, 2025, etc. Year should always be a future year(Should be greater than current year)",
+    "type": "number",
+    "field":"text"
+  },
+  "inactiveColor": {
+    "tooltip": "The color of the widget in inactive state.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "min": {
+    "tooltip": "The minimum value the user can select.",
+    "placeholder": "eg.: 5",
+    "info": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "max": {
+    "tooltip": "The maximum value the user can select.",
+    "placeholder": "eg.: 30",
+    "info": "10, 11, 12, 13, 14, 20, 25, 30, 40, etc. But Should be greater than min value",
+    "type": "number",
+    "field":"text"
+  },
+  "divisions": {
+    "tooltip": "The number of discrete divisions between min and max",
+    "placeholder": "eg.: 5",
+    "info": "4, 5, 6, 7, 8, 9, 10, 11, 12, etc. But Should be in between min and max values",
+    "type": "number",
+    "field":"text"
+  },
+  "SnackBarAction.label": {
+    "tooltip": "The button label.",
+    "placeholder": "eg.: It's snackbar",
+    "info": "Enter any text",
+    "type": "string",
+    "field":"text"
+  },
+  "Slider.label": {
+    "tooltip": "A label to show above the slider when the slider is active.",
+    "placeholder": "eg.: slider",
+    "info": "Enter any text",
+    "type": "string",
+    "field":"text"
+  },
+  "parameterName": {
+    "tooltip": "Unique Id that should be given to the widget.",
+    "placeholder": "eg.: value1",
+    "info": "value1,value2,one1,one2,one3 (This value should start with a letter and can contain no spaces and only '_' is allowed as a special character)",
+    "type": "string",
+    "field":"text"
+  },
+  "parameterValue": {
+    "tooltip": "Unique value of the widget.",
+    "placeholder": "eg.: 1",
+    "info": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "paramValue": {
+    "tooltip": "Unique value of the widget.",
+    "placeholder": "eg.: 1",
+    "info": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "dividerHeight": {
+    "tooltip": "Represents the height of the divider",
+    "placeholder": "eg.: 10",
+    "info": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "thickness": {
+    "tooltip": "The thickness of the line of the divider",
+    "placeholder": "eg.: 1",
+    "info": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "indent": {
+    "tooltip": "The amount of empty space to the leading edge of the divider.",
+    "placeholder": "eg.: 1",
+    "info": "1, 2, 3, 4, 5, 6, 7, 8, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "endIndent": {
+    "tooltip": "The amount of empty space to the trailing edge of the divider.",
+    "placeholder": "eg.: 5",
+    "info": "2, 3, 5, 8, 10, 15, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "backgroundColor": {
+    "tooltip": "The color drawn as a background of the widget.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "valueColor": {
+    "tooltip": "The progress indicator's color.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "minHeight": {
+    "tooltip": "The minimum height of the widget.",
+    "placeholder": "eg.: 5",
+    "info": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "strokeWidth": {
+    "tooltip": "The width of the line used to draw the circle.",
+    "placeholder": "eg.: 5",
+    "info": "2, 5, 7, 10, 15, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "floatingIcon": {
+    "tooltip": "The icon to be displayed on the widget.",
+    "placeholder": "eg.: star",
+    "info": "star, home, settings, label, radio, edit, mail, etc .. You can visit Flutter community site to see more examples",
+    "type": "string",
+    "field":"text"
+  },
+  "foregroundColor": {
+    "tooltip": "The default foreground color for icons and text within the button.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "mini": {
+    "tooltip": "If true the widget will be shown in minified size else in default size.",
+    "placeholder": "eg.: true",
+    "info": " true or false",
+    "type": "boolean",
+    "field":["true", "false"]
+  },
+  "trailing": {
+    "tooltip": "A widget to display after the title. Typically an Icon widget.",
+    "placeholder": "eg.: star",
+    "info": "star, home, settings, label, radio, edit, mail, etc .. You can visit Flutter community site to see more examples",
+    "type": "string",
+    "field":"text"
+  },
+  "leading": {
+    "tooltip": "A widget to display before the title. Typically the leading widget is an Icon or an IconButton.",
+    "placeholder": "eg.: star",
+    "info": "star, home, settings, label, radio, edit, mail, etc .. You can visit Flutter community site to see more examples",
+    "type": "string",
+    "field":"text"
+  },
+  "enabled": {
+    "tooltip": "Whether the button is enabled or disabled. Buttons are disabled by default.",
+    "placeholder": "eg.: true",
+    "info": " true or false",
+    "type": "boolean",
+    "field":["true", "false"]
+  },
+  "selected": {
+    "tooltip": "Whether the listTile is interactive.",
+    "placeholder": "eg.: true",
+    "info": " true or false",
+    "type": "boolean",
+    "field":["true", "false"]
+  },
+  "dense": {
+    "tooltip": "Whether this list tile is part of a vertically dense list",
+    "placeholder": "eg.: true",
+    "info": " true or false",
+    "type": "boolean",
+    "field":["true", "false"]
+  },
+  "cursorColor": {
+    "tooltip": "The color of the cursor.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "activeColor": {
+    "tooltip": "The color of the widget when activated.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending  to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "checkColor": {
+    "tooltip": "The color of the tick icon when checked.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "cursorWidth": {
+    "tooltip": "How thick the cursor will be.",
+    "placeholder": "eg.: 5",
+    "info": "eg.: 5, 8, 10, 20, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "maxLength": {
+    "tooltip": "The maximum number of characters that can be entered in a widget.",
+    "placeholder": "eg.: 2",
+    "info": "eg.: 1, 3, 5, 10, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "maxLines": {
+    "tooltip": "The maximum number of lines that are allowed for widget to wrap.",
+    "placeholder": "eg.: 5",
+    "info": "eg.: 1, 3, 5, 10, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "textDirection": {
+    "tooltip": "The directionality of the text.",
+    "placeholder": "eg.: ltr",
+    "info": "ltr or rtl",
+    "type": "string",
+    "field":["ltr", "rtl"]
+  },
+  "parameter": {
+    "tooltip": "Unique Id that should be given to the widget.",
+    "placeholder": "eg.: param12",
+    "info": "eg.: value1, valRadio (This value should start with a letter and can contain no spaces and only '_' is allowed as a special character)",
+    "type": "string",
+    "field":"text"
+  },
+  "title": {
+    "tooltip": "Any text that contains a description of the current contents of the app",
+    "placeholder": "eg.: my app",
+    "info": "Enter any text",
+    "type": "string",
+    "field":"text"
+  },
+  "subtitle": {
+    "tooltip": "Any text that contains a short description of title",
+    "placeholder": "eg.: my widgets",
+    "info": "Enter any text",
+    "type": "string",
+    "field":"text"
+  },
+  "focusColor": {
+    "tooltip": "The color for the widget's Material when it has the input focus.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "activeTrackColor": {
+    "tooltip": "The color to use on the track when the widget is active.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "hoverColor": {
+    "tooltip": "The color for the widget's Material when a pointer is hovering over it.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "textValue": {
+    "tooltip": "The text to be displayed.",
+    "placeholder": "eg.: It's flutter",
+    "info": "Enter any text",
+    "type": "string",
+    "field":"text"
+  },
+  "textScaleFactor": {
+    "tooltip": "The number by which fontSize will be multiplied.",
+    "placeholder": "eg.: 5",
+    "info": "eg.: 1, 3, 5, 10, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "iconSize": {
+    "tooltip": "The size of the icon.",
+    "placeholder": "eg.: 5",
+    "info": "10, 20, 30, 40, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "tooltip": {
+    "tooltip": "Text that describes the action that will occur when the button is pressed.",
+    "placeholder": "eg.: Hello",
+    "info": "Enter any text",
+    "type": "string",
+    "field":"text"
+  },
+  "visualDensity": {
+    "tooltip": "Defines the visual density of user interface components.",
+    "placeholder": "eg.: compact",
+    "info": " comfortable, compact, standard",
+    "type": "string",
+    "field":["compact", "comfortable", "standard"]
+  },
+  "elevation": {
+    "tooltip": "The z-coordinate at which to place this button relative to its parent.",
+    "placeholder": "eg.: 5",
+    "info": "5, 10, 15, 20, 30, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "highlightedBorderColor": {
+    "tooltip": "The outline border's color when the button is enabled and pressed.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "disabledBorderColor": {
+    "tooltip": "The border color to display when the widget is disabled.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "highlightElevation": {
+    "tooltip": "The z-coordinate at which to place this button relative to its parent when the user is touching the button.",
+    "placeholder": "eg.: 5",
+    "info": "eg.: 1, 5, 10, 20, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "borderSide": {
+    "tooltip": "Gives color and width to the border of widget",
+    "placeholder": "eg.: 5",
+    "info": "eg.: 1, 5, 10, 20, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "errorFormatText": {
+    "tooltip": "The error text displayed if the entered date is not in the correct format. ",
+    "placeholder": "eg.: invalid input",
+    "info": "Enter any text message",
+    "type": "string",
+    "field":"text"
+  },
+  "errorInvalidText": {
+    "tooltip": "The error text displayed if the date is not valid.",
+    "placeholder": "eg.: invalid input",
+    "info": "Enter any text message",
+    "type": "string",
+    "field":"text"
+  },
+  "message": {
+    "tooltip": "An optional descriptive message that provides more details about the reason for the alert.",
+    "placeholder": "eg.: my app",
+    "info": "Enter any text",
+    "type": "string",
+    "field":"text"
+  },
+  "margin": {
+    "tooltip": "The empty space that surrounds the widget.",
+    "placeholder": "eg.: 5",
+    "info": "5, 10, 15, 20, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "showDuration": {
+    "tooltip": "The length of time that the tooltip will be shown after a long press is released.",
+    "placeholder": "eg.: 5",
+    "info": "2, 5, 10, 15, etc. Duration is in seconds.",
+    "type": "number",
+    "field":"text"
+  },
+  "waitDuration": {
+    "tooltip": "The length of time that a pointer must hover over a tooltip's widget before the tooltip will be shown.",
+    "placeholder": "eg.: 2",
+    "info": "1, 2, 3, 4, 5, etc. Duration is in seconds.",
+    "type": "number",
+    "field":"text"
+  },
+  "iconButton": {
+    "tooltip": "The icon to be displayed.",
+    "placeholder": "eg.: star",
+    "info": "star, home, settings, label, radio, edit, mail, etc .. You can visit Flutter community site to see more examples",
+    "type": "string",
+    "field":"text"
+  },
+  "toolHeight": {
+    "tooltip": "The height of the tooltip.",
+    "placeholder": "eg.: 5",
+    "info": "5, 10, 15, 20, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "startParameter": {
+    "tooltip": "Unique Id that should be given to start of the widget.",
+    "placeholder": "eg.: my application",
+    "info": "eg.: value1, valRadio, (This value should start with a letter and can contain no spaces and only '_' is allowed as a special character)",
+    "type": "string",
+    "field":"text"
+  },
+  "startValue": {
+    "tooltip": "Unique number which signifies start value.",
+    "placeholder": "eg.: 10",
+    "info": "5, 10, 15, 20 etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "endParameter": {
+    "tooltip": "Unique Id that should be given to end of the widget.",
+    "placeholder": "eg.: my application",
+    "info": "eg.: value1, valRadio, (This value should start with a letter and can contain no spaces and only '_' is allowed as a special character)",
+    "type": "string",
+    "field":"text"
+  },
+  "endValue": {
+    "tooltip": "Unique number which signifies end value.",
+    "placeholder": "eg.: 10",
+    "info": "5, 10, 15, 20 etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "shadowColor": {
+    "tooltip": "The color of the shadow below the widget.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "boxHeight": {
+    "tooltip": "The height of the SizedBox.",
+    "placeholder": "eg.: 30",
+    "info": "50, 100, 150, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "boxWidth": {
+    "tooltip": "The width of the SizedBox.",
+    "placeholder": "eg.: 30",
+    "info": "50, 100, 150, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "borderColor": {
+    "tooltip": "The border color to be displayed when the button is enabled and not selected.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "borderRadius": {
+    "tooltip": "The radius of the button's corners.",
+    "placeholder": "eg.: 5",
+    "info": "5, 10, 15, 20, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "borderWidth": {
+    "tooltip": "The width of the border surrounding each toggle button.",
+    "placeholder": "eg.: 5",
+    "info": "5, 10, 15, 20, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "fillColor": {
+    "tooltip": "The fill color for selected buttons.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "selectedBorderColor": {
+    "tooltip": "The border color to display when the toggle button is selected.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "selectedColor": {
+    "tooltip": "The color of text and Icon widgets if the button is selected.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "renderBorder": {
+    "tooltip": "Whether or not to render a border around each toggle button.",
+    "placeholder": "eg.: true",
+    "info": "true or false",
+    "type": "boolean",
+    "field":["true", "false"]
+  },
+  "contentPadding": {
+    "tooltip": "Padding around the content.",
+    "placeholder": "eg.: 10",
+    "info": "5, 10, 15, 20, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "titlePadding": {
+    "tooltip": "Padding around the title.",
+    "placeholder": "eg.: 10",
+    "info": "5, 10, 15, 20, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "onPressedValue": {
+    "tooltip": "The value which is mapped with the dropdown option.",
+    "placeholder": "eg.: YES",
+    "info": "YES, NO, MAYBE etc. Can enter any text as a onPressedValue",
+    "type": "string",
+    "field":"text"
+  },
+  "alignment": {
+    "tooltip": "How the children should be placed along the horizontal axis.",
+    "placeholder": "eg.: center",
+    "info": "center, end, start, spaceEvenly, spaceAround, spaceBetween",
+    "type": "string",
+    "field":["center", "end", "start", "spaceEvenly", "spaceAround", "spaceBetween"]
+  },
+  "scrollDirection": {
+    "tooltip": "The axis along which the page view scrolls..",
+    "placeholder": "eg.: vertical",
+    "info": "vertical, horizontal",
+    "type": "string",
+    "field":["vertical","horizontal"]
+  },
+  "buttonAlignedDropdown": {
+    "tooltip": "Whether or not DropdownButton menu's width will match the button's width.",
+    "placeholder": "eg.: false",
+    "info": "true or false",
+    "type": "boolean",
+    "field":["true", "false"]
+  },
+  "buttonHeight": {
+    "tooltip": "Button's minimum height.",
+    "placeholder": "eg.: 20",
+    "info": "10, 20, 35, 40, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "buttonMinWidth": {
+    "tooltip": "Button's minimum width.",
+    "placeholder": "eg.: 20",
+    "info": "10, 20, 35, 40, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "buttonTextTheme": {
+    "tooltip": "Button's text theme",
+    "placeholder": "eg.: normal",
+    "info": "accent, normal, primary",
+    "type": "string",
+    "field":["accent", "normal", "primary"]
+  },
+  "layoutBehavior": {
+    "tooltip": "Defines whether a ButtonBar should size itself with a minimum size constraint or with padding.",
+    "placeholder": "eg.: constrained",
+    "info": "constrained, padded",
+    "type": "string",
+    "field":["constrained", "padded"]
+  },
+  "mainAxisSize": {
+    "tooltip": "How much horizontal space is available.",
+    "placeholder": "eg.: min",
+    "info": "min, max",
+    "type": "string",
+    "field":["min", "max"]
+  },
+  "overflowButtonSpacing": {
+    "tooltip": "The spacing between buttons when the button bar overflows.",
+    "placeholder": "eg.: 5",
+    "info": "5, 10, 15, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "overflowDirection": {
+    "tooltip": "Defines the vertical direction of a ButtonBar's children if it overflows.",
+    "placeholder": "eg.: up",
+    "info": "up, down",
+    "type": "string",
+    "field":["up", "down"]
+  },
+  "itemExtent": {
+    "tooltip": "Forces the children to have the given extent in the scroll direction.",
+    "placeholder": "eg.: 100",
+    "info": "50, 80, 100, 150, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "primary": {
+    "tooltip": "Whether this app bar is being displayed at the top of the screen.",
+    "placeholder": "eg.: true",
+    "info": "true or false",
+    "type": "boolean",
+    "field":["true", "false"]
+  },
+  "content": {
+    "tooltip": "The primary content of the widget.",
+    "placeholder": "eg.: Hello",
+    "info": "Enter any text.",
+    "type": "string",
+    "field":"text"
+  },
+  "duration": {
+    "tooltip": "The amount of time for which widget should be displayed.",
+    "placeholder": "eg.: 5",
+    "info": "2, 5, 10, 15, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "titleSpacing": {
+    "tooltip": "The spacing around title content on the horizontal axis.",
+    "placeholder": "eg.: 5",
+    "info": "5, 10, 20, 30, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "centerTitle": {
+    "tooltip": "Whether the title should be centered.",
+    "placeholder": "eg.: false",
+    "info": "true or false",
+    "type": "boolean",
+    "field":["true", "false"]
+  },
+  "brightness": {
+    "tooltip": "The brightness of the widget.",
+    "placeholder": "eg.: dark",
+    "info": "dark or light",
+    "type": "string",
+    "field":["dark", "light"]
+  },
+  "bottomOpacity": {
+    "tooltip": "How opaque the bottom part of the app bar is.",
+    "placeholder": "eg.: 0.5",
+    "info": "[0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1], enter any value between 0 to 1",
+    "type": "double",
+    "field":"text"
+  },
+  "toolbarHeight": {
+    "tooltip": "Defines the height of the toolbar component of an AppBar.",
+    "placeholder": "eg.: 10",
+    "info": "10, 20, 30, 35, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "toolbarOpacity": {
+    "tooltip": "How opaque the toolbar part of the app bar is.",
+    "placeholder": "eg.: 0.5",
+    "info": "[0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1], enter any value between 0 to 1",
+    "type": "double",
+    "field":"text"
+  },
+  "unselectedLabelColor": {
+    "tooltip": "The color of unselected tab labels.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "unselectedItemColor": {
+    "tooltip": "The color of unselected tabs.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "labelColor": {
+    "tooltip": "The color of selected tab labels.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending see more  examples",
+    "type": "strcoloring",
+    "field":"text"
+  },
+  "labelPadding": {
+    "tooltip": "The padding added to each of the tab labels.",
+    "placeholder": "eg.: 10",
+    "info": "5, 10, 15, 20, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "indicatorPadding": {
+    "tooltip": "The horizontal padding for the line that appears below the selected tab.",
+    "placeholder": "eg.: 10",
+    "info": "5, 10, 15, 20, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "indicatorSize": {
+    "tooltip": "Defines how the selected tab indicator's size is computed.",
+    "placeholder": "eg.: label",
+    "info": "label or tab.",
+    "type": "string",
+    "field":["label", "tab"]
+  },
+  "indicatorWeight": {
+    "tooltip": "The thickness of the line that appears below the selected tab.",
+    "placeholder": "eg.: 10",
+    "info": "5, 10, 15, 20, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "indicatorColor": {
+    "tooltip": "The color of the line that appears below the selected tab.",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "iconMargin": {
+    "tooltip": "The margin added around the tab's icon.",
+    "placeholder": "eg.: 10",
+    "info": "5, 10, 15, 20, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "pageName": {
+    "tooltip": "A page that displays the widget which corresponds to the currently selected tab.",
+    "placeholder": "eg.: page2",
+    "info": "page2, page3, page4, etc. (Should be an existing page)",
+    "type": "string",
+    "field":"text"
+  },
+  "pageNames": {
+    "tooltip": "A page that displays the widget which corresponds to the currently selected tab.",
+    "placeholder": "eg.: page2",
+    "info": "page2, page3, page4, etc. (Should be an existing page)",
+    "type": "string",
+    "field":"text"
+  },
+  "overflow": {
+    "tooltip": "How visual overflow should be handled.",
+    "placeholder": "eg.: clip",
+    "info": "clip, fade, visible, ellipsis",
+    "type": "string",
+    "field":["clip", "fade", "visible", "ellipsis"]
+  },
+  "recognizer": {
+    "tooltip": "The URL which will be opened in a browser on click of the text.",
+    "placeholder": "eg.: https://google.com",
+    "info": "https://google.com, https://www.facebook.com, etc",
+    "type": "string",
+    "field":"text"
+  },
+  "textHeightBehavior": {
+    "tooltip": "Defines how the paragraph will apply TextStyle.height to the ascent of the first line and descent of the last line.",
+    "placeholder": "eg.: 4",
+    "info": "2, 4, 5, 10, 12, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "textWidthBasis": {
+    "tooltip": "Defines how to measure the width of the rendered text.",
+    "placeholder": "eg.: longestLine",
+    "info": "longestLine or parent",
+    "type": "string",
+    "field":["longestLine", "parent"]
+  },
+  "textName": {
+    "tooltip": "The text to be displayed.",
+    "placeholder": "eg.: my app",
+    "info": "Enter any text",
+    "type": "string",
+    "field":"text"
+  },
+  "shape": {
+    "tooltip": "The material's shape as well its shadow.",
+    "placeholder": "eg.: ffc6ff, 10, 5",
+    "info": "[color, width, borderRadius]: [ffc6ff, 10, 5], [e6b8a2, 8, 6], [f2cc8f, 12, 4], etc.",
+    "type": "string",
+    "field":"text"
+  },
+  "decoration": {
+    "tooltip": "The decoration to show around the widget.",
+    "placeholder": "eg.: 8, 5, ffc6ff, 10, any Text",
+    "info": "[borderRadius, gapPadding, color, width, hintText]: [8, 5, ffc6ff, 10, any Text] ,[10, 6, e5989b, 12, any Text] etc.",
+    "type": "string",
+    "field":"text"
+  },
+  "textStyle": {
+    "tooltip": "Style of text of label.",
+    "placeholder": "eg.: 5, bold, ffc6ff",
+    "info": "[fontSize, fontWeight, color] : [5, bold, ffc6ff], [7, normal, ffc6ff] etc.",
+    "type": "string",
+    "field":"text"
+  },
+  "style": {
+    "tooltip": "Style of text of label.",
+    "placeholder": "eg.: 5, bold, ffc6ff",
+    "info": "[fontSize, fontWeight, color] : [5, bold, ffc6ff], [7, normal, ffc6ff] etc.",
+    "type": "string",
+    "field":"text"
+  },
+  "titleTextStyle": {
+    "tooltip": "Style of text of label.",
+    "placeholder": "eg.: 5, bold, ffc6ff",
+    "info": "[fontSize, fontWeight, color] : [5, bold, ffc6ff], [7, normal, ffc6ff] etc.",
+    "type": "string",
+    "field":"text"
+  },
+  "unselectedLabelStyle": {
+    "tooltip": "The text style of the unselected tab labels.",
+    "placeholder": "eg.: 5, bold, ffc6ff",
+    "info": "[fontSize, fontWeight, color] : [5, bold, ffc6ff], [7, normal, ffc6ff] etc.",
+    "type": "string",
+    "field":"text"
+  },
+  "labelStyle": {
+    "tooltip": "The style to be applied to the widget's label.",
+    "placeholder": "eg.: 5, bold, ffc6ff",
+    "info": "[fontSize, fontWeight, color] : [5, bold, ffc6ff], [7, normal, ffc6ff] etc.",
+    "type": "string",
+    "field":"text"
+  },
+  "type": {
+    "tooltip": "Defines the layout and behavior of a BottomNavigationBar.",
+    "placeholder": "eg.: fixed",
+    "info": "fixed or shifting",
+    "type": "string",
+    "field":["fixed", "shifting"]
+  },
+  "selectedItemColor": {
+    "tooltip": "The color of the selected BottomNavigationBarItem",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "selectedFontSize": {
+    "tooltip": "The font size of the BottomNavigationBarItem labels when they are selected.",
+    "placeholder": "eg.: 5",
+    "info": "1,2,3,4,5,6,7,8 ,etc",
+    "type": "number",
+    "field":"text"
+  },
+  "captureInheritedThemes": {
+    "tooltip": "If true (the default) then the menu will be wrapped with copies of the InheritedThemes",
+    "placeholder": "eg.: true",
+    "info": "true or false",
+    "type": "boolean",
+    "field":["true", "false"]
+  },
+  "offset": {
+    "tooltip": "The offset applied to the Popup Menu Button.",
+    "placeholder": "eg.: 5",
+    "info": "1,2,3,4,5,6,7,8 ,etc",
+    "type": "number",
+    "field":"text"
+  },
+  "initialValue": {
+    "tooltip": "The value of the menu item, if any, that should be highlighted when the menu opens.",
+    "placeholder": "eg.: 1",
+    "info": "1,2,3,4,5,6,7,8 ,etc",
+    "type": "number",
+    "field":"text"
+  },
+  "onTap": {
+    "tooltip": "Called when the item is tapped.",
+    "placeholder": "eg.:page2",
+    "info": "page3 or page4 or page5 or page6 or page7, etc. (Should be an existing page)",
+    "type": "string",
+    "field":"text"
+  },
+ "itemHeight": {
+    "tooltip": " The menu item heights will vary according to each menu item's intrinsic height.",
+    "placeholder": "eg.: 1",
+    "info": "1,2,3,4,5,6,7,8 ,etc",
+    "type": "number",
+    "field":"text"
+  },
+  "iconDisabledColor": {
+    "tooltip": "The color of any Icon descendant of icon if this button is disabled,",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "iconEnabledColor": {
+    "tooltip": "The color of any Icon descendant of icon if this button is enabled",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "dropdownColor": {
+    "tooltip": " The background color of the dropdown..",
+    "placeholder": "eg.: ffc6ff",
+    "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+    "type": "color",
+    "field":"text"
+  },
+  "isDense": {
+    "tooltip": "If isDense is true, the button's height is reduced by about half",
+    "placeholder": "eg.: true",
+    "info": "true or false",
+    "type": "boolean",
+    "field":["true", "false"]
+  },
+  "isExpanded": {
+    "tooltip": "Set the dropdown's inner contents to horizontally fill its parent.",
+    "placeholder": "eg.: true",
+    "info": "true or false",
+    "type": "boolean",
+    "field":["true", "false"]
+  },
+  "autofocus": {
+    "tooltip": "True if this widget will be selected as the initial focus when no other node in its scope is currently focused.",
+    "placeholder": "eg.: true",
+    "info": "true or false",
+    "type": "boolean",
+    "field":["true", "false"]
+  },
+  "showSelectedLabels": {
+    "tooltip": "Whether the labels are shown for the unselected BottomNavigationBarItems.",
+    "placeholder": "eg.: true",
+    "info": "true or false",
+    "type": "boolean",
+    "field":["true", "false"]
+  },
+  "value": {
+    "tooltip": "The value to return if the user selects this menu item.",
+    "placeholder": "eg.: 1",
+    "info": "1, 2, 3, 4, 5, etc.",
+    "type": "number",
+    "field":"text"
+  },
+  "checked": {
+    "tooltip": "Whether to display a checkmark next to the menu item.",
+    "placeholder": "eg.: true",
+    "info": "true or false",
+    "type": "boolean",
+    "field":["true", "false"]
+  },
+  "clipBehavior": {
+      "tooltip": "The content will be clipped (or not) according to this option.",
+      "placeholder": "eg.: hardEdge",
+      "info": "hardEdge,antiAlias,antiAliaswithSaveLayer,none",
+      "type": "string",
+      "field":["hardEdge", "antiAlias","antiAliaswithSaveLayer","none"]
+    },
+    "constraints": {
+      "tooltip": "The constructor width and height arguments are combined with the constraints argument to set this property.",
+      "placeholder": "eg.: [5, 4, 10, 8]",
+      "info": "[minHeight, minWidth, maxHeight, maxWidth] : [5, 4, 10, 8], [4, 7, 8, 10] etc.",
+      "type": "string",
+      "field":"text"
+    },
+    "transform": {
+      "tooltip": "The transformation matrix to apply before painting the container.",
+      "placeholder": "eg.: [5, 4, 10]",
+      "info": "[x, y, z] : [5, 4, 10], [4, 7, 8] etc.",
+      "type": "string",
+      "field":"text"
+    },
+    "foregroundDecoration": {
+      "tooltip": "The decoration to paint in front of the child.",
+      "placeholder": "eg.: 8, 5, ffc6ff, 10, any Text",
+      "info": "[borderRadius, gapPadding, color, width, hintText]: [8, 5, ffc6ff, 10, any Text] ,[10, 6, e5989b, 12, any Text] etc.",
+      "type": "string",
+      "field":"text"
+    },
+    "mainAxisAlignment": {
+      "tooltip": "Provide us how the children should be placed along the main axis.",
+      "placeholder": "eg.: center",
+      "info": "center, end, start, spaceEvenly, spaceAround, spaceBetween",
+      "type": "string",
+      "field":["center", "end", "start", "spaceEvenly", "spaceAround", "spaceBetween"]
+    },
+    "crossAxisAlignment": {
+      "tooltip": "Provide us how the children should be placed along the cross axis.",
+      "placeholder": "eg.: center",
+      "info": "center, end, start, spaceEvenly, spaceAround, spaceBetween",
+      "type": "string",
+      "field":["stretch", "end", "baseline", "center", "start"]
+    },
+    "verticalDirection": {
+      "tooltip": "Determines the order to lay children out vertically and how to interpret start and end in the vertical direction.",
+      "placeholder": "eg.: up",
+      "info": "up,down",
+      "type": "string",
+      "field":["up", "down"]
+    },
+    "textBaseline": {
+      "tooltip": "If aligning items according to their baseline, which baseline to use.",
+      "placeholder": "eg.: alphabetic",
+      "info": "alphabetic, ideographic",
+      "type": "string",
+      "field":["alphabetic", "ideographic"]
+    },
+    "imageHeight": {
+      "tooltip": "The images height.",
+      "placeholder": "eg.: 50",
+      "info": "50, 100, 150, etc.",
+      "type": "number",
+      "field":"text"
+    },
+    "imageWidth": {
+      "tooltip": "The images width.",
+      "placeholder": "eg.: 50",
+      "info": "50, 100, 150, etc.",
+      "type": "number",
+      "field":"text"
+    },
+    "centerSlice": {
+      "tooltip": "The center slice for a nine-patch image.",
+      "placeholder": "eg.: zero",
+      "info": "zero, largest.",
+      "type": "string",
+      "field":["zero", "largest"]
+    },
+    "colorBlendMode": {
+      "tooltip": "Used to combine color with this image.",
+      "placeholder": "eg.: colorBurn",
+      "info": "colorBurn, dstATop, dst, dstIn, etc.",
+      "type": "string",
+      "field":["colorBurn", "dstATop","dst","dstIn","dstOut","clear","color","colorDodge","darken","difference","multiple","saturation","lighten"]
+    },
+    "cacheHeight": {
+      "tooltip": "To adjust the height of the image.",
+      "placeholder": "eg.: 50",
+      "info": "50, 100, 150, etc.",
+      "type": "number",
+      "field":"text"
+    },
+    "cacheWidth": {
+      "tooltip": "To adjust the width of the image.",
+      "placeholder": "eg.: 50",
+      "info": "50, 100, 150, etc.",
+      "type": "number",
+      "field":"text"
+    },
+    "fit": {
+      "tooltip": "How to inscribe the image into the space allocated during layout.",
+      "placeholder": "eg.: fill",
+      "info": "fill, cover, none, contain, scaleDown, fitHeight, fitWidth.",
+      "type": "string",
+      "field":["fill","cover","none","contain","scaleDown","fitHeight","fitWidth"]
+    },
+    "repeat": {
+      "tooltip": "How to paint any portions of the layout bounds not covered by the image.",
+      "placeholder": "eg.: noRepeat",
+      "info": "noRepeat, repeat, repeatX, repeatY.",
+      "type": "string",
+      "field":["noRepeat","repeat","repeatX","repeatY"]
+    },
+    "gaplessPlayback": {
+      "tooltip": "Whether to continue showing the old image (true), or briefly show nothing (false), when the image provider changes.",
+      "placeholder": "eg.: true",
+      "info": "trur or false",
+      "type": "boolean",
+      "field":["true","false"]
+    },
+    "isAntiAlias": {
+      "tooltip": "Whether to paint the image with anti-aliasing.",
+      "placeholder": "eg.: true",
+      "info": "trur or false",
+      "type": "boolean",
+      "field":["true","false"]
+    },
+    "matchTextDirection": {
+      "tooltip": "Whether to paint the image in the direction of the TextDirection.",
+      "placeholder": "eg.: true",
+      "info": "true or false",
+      "type": "boolean",
+      "field":["true","false"]
+    },
+    "url": {
+      "tooltip": "Image to be displayed from network.",
+      "placeholder": "eg.: 'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg'",
+      "info": " 'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg' etc.",
+      "type": "string",
+      "field":"text"
+    },
+    "fontSize": {
+      "tooltip": "Size of the text.",
+      "placeholder": "eg.: 5",
+      "info": " 5, 7, 10, etc",
+      "type": "number",
+      "field":"text"
+    },
+    "fontWeight": {
+      "tooltip": "The font-weight property sets how thick or thin characters in text should be displayed.",
+      "placeholder": "eg.: bold",
+      "info": " bold, normal, w100, etc",
+      "type": "string",
+      "field":["bold","normal","w100","w200","w300","w400","w500","w600","w700","w800","w900"]
+    },
+    "fontStyle": {
+      "tooltip": "The typeface variant to use when drawing the letters (e.g., italics).",
+      "placeholder": "eg.: normal",
+      "info": " normal, italic ",
+      "type": "string",
+      "field":["italic","normal"]
+    },
+    "letterSpacing": {
+      "tooltip": "The amount of space (in logical pixels) to add between each letter.",
+      "placeholder": "eg.: 5",
+      "info": " 5, 10, 15, etc ",
+      "type": "number",
+      "field":"text"
+    },  
+    "wordSpacing": {
+      "tooltip": "The amount of space (in logical pixels) to add between each word.",
+      "placeholder": "eg.: 5",
+      "info": " 5, 10, 15, etc ",
+      "type": "number",
+      "field":"text"
+    },
+    "inherit": {
+      "tooltip": "Whether null values are replaced with their value in an ancestor text style.",
+      "placeholder": "eg.: true",
+      "info": "true or false",
+      "type": "boolean",
+      "field":["true","false"]
+    },
+    "shadowOffset": {
+      "tooltip": "The displacement of the shadow from the casting element.",
+      "placeholder": "eg.: zero",
+      "info": "infinite, zero",
+      "type": "string",
+      "field":["infinite","zero"]
+    },
+    "shadowBlurRadius": {
+      "tooltip": "The standard deviation of the Gaussian to convolve with the shadow's shape.",
+      "placeholder": "eg.: 5",
+      "info": " 5, 10, 15, etc ",
+      "type": "number",
+      "field":"text"
+    },
+    "labelText": {
+      "tooltip": "Text that describes the input field",
+      "placeholder": "eg.: Password",
+      "info": "Enter any text",
+      "type": "string",
+      "field":"text"
+    },
+    "filled": {
+      "tooltip": "If true the decoration's container is filled with fillColor ",
+      "placeholder": "eg.: true",
+      "info": "true or false",
+      "type": "boolean",
+      "field":["true","false"]
+    },
+    "hintText": {
+      "tooltip": "Text that suggests what sort of input the field accepts",
+      "placeholder": "eg.: Username",
+      "info": "Enter any text",
+      "type": "string",
+      "field":"text"
+    },
+    "disabledBorderStyle": {
+      "tooltip": "The style of the side of the border.",
+      "placeholder": "eg.: solid",
+      "info": "solid or none",
+      "type": "string",
+      "field":["solid","none"]
+    },
+    "disabledBorderRadius": {
+      "tooltip": "The radii of the border's rounded rectangle corners.",
+      "placeholder": "eg.: 5",
+      "info": " 5, 10, 15, etc ",
+      "type": "number",
+      "field":"text"
+    },
+    "disabledGapPadding": {
+      "tooltip": "Horizontal padding on either side of the border's InputDecoration.labelText width gap.",
+      "placeholder": "eg.: 5",
+      "info": " 5, 10, 15, etc ",
+      "type": "number",
+      "field":"text"
+    },
+    "disabledBorderWidth": {
+      "tooltip": "The width of this side of the border, in logical pixels",
+      "placeholder": "eg.: 5",
+      "info": " 5, 10, 15, etc ",
+      "type": "number",
+      "field":"text"
+    },
+    "enabledBorderStyle": {
+      "tooltip": "The style of the side of the border.",
+      "placeholder": "eg.: solid",
+      "info": "solid or none",
+      "type": "string",
+      "field":["solid","none"]
+    },
+    "enabledBorderRadius": {
+      "tooltip": "The radii of the border's rounded rectangle corners.",
+      "placeholder": "eg.: 5",
+      "info": " 5, 10, 15, etc ",
+      "type": "number",
+      "field":"text"
+    },
+    "enabledGapPadding": {
+      "tooltip": "Horizontal padding on either side of the border's InputDecoration.labelText width gap.",
+      "placeholder": "eg.: 5",
+      "info": " 5, 10, 15, etc ",
+      "type": "number",
+      "field":"text"
+    },
+    "enabledBorderWidth": {
+      "tooltip": "The width of this side of the border, in logical pixels",
+      "placeholder": "eg.: 5",
+      "info": " 5, 10, 15, etc ",
+      "type": "number",
+      "field":"text"
+    },
+    "enabledBorderColor": {
+      "tooltip": "The border color to display when the widget is disabled.",
+      "placeholder": "eg.: ffc6ff",
+      "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+      "type": "color",
+      "field":"text"
+    },
+    "focusedBorderStyle": {
+      "tooltip": "The style of the side of the border.",
+      "placeholder": "eg.: solid",
+      "info": "solid or none",
+      "type": "string",
+      "field":["solid","none"]
+    },
+    "focusedBorderRadius": {
+      "tooltip": "The radii of the border's rounded rectangle corners.",
+      "placeholder": "eg.: 5",
+      "info": " 5, 10, 15, etc ",
+      "type": "number",
+      "field":"text"
+    },
+    "focusedGapPadding": {
+      "tooltip": "Horizontal padding on either side of the border's InputDecoration.labelText width gap.",
+      "placeholder": "eg.: 5",
+      "info": " 5, 10, 15, etc ",
+      "type": "number",
+      "field":"text"
+    },
+    "focusedBorderWidth": {
+      "tooltip": "The width of this side of the border, in logical pixels",
+      "placeholder": "eg.: 5",
+      "info": " 5, 10, 15, etc ",
+      "type": "number",
+      "field":"text"
+    },
+    "focusedBorderColor": {
+      "tooltip": "The border color to display when the widget is disabled.",
+      "placeholder": "eg.: ffc6ff",
+      "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+      "type": "color",
+      "field":"text"
+    },
+    "prefixIcon": {
+      "tooltip": "An icon that appears before the prefix or prefixText and before the editable part of the text field, within the decoration's container..",
+      "placeholder": "eg.: star",
+      "info": "star, home, settings, label, radio, edit, mail, etc .. You can visit Flutter community site to see more examples",
+      "type": "string",
+      "field":"text"
+    }, 
+    "suffixIcon": {
+      "tooltip": "An icon that appears after the editable part of the text field and after the suffix or suffixText, within the decoration's container.",
+      "placeholder": "eg.: star",
+      "info": "star, home, settings, label, radio, edit, mail, etc .. You can visit Flutter community site to see more examples",
+      "type": "string",
+      "field":"text"
+    },
+    "Alignment": {
+      "tooltip": "How the children should be placed along the horizontal axis.",
+      "placeholder": "eg.: center",
+      "info": "center,centerRight, centerLeft, bottomRight, bottomLeft, bottomCenter, topRight, topLeft, topCenter",
+      "type": "string",
+      "field":["center", "centerRight", "centerLeft", "bottomRight", "bottomLeft", "bottomCenter", "topRight", "topLeft", "topCenter"]
+    },
+    "topRightRadius": {
+      "tooltip": "The top-Right radius",
+      "placeholder": "eg.: 5",
+      "info": " 5, 10, 15, etc ",
+      "type": "number",
+      "field":"text"
+    },
+    "bottomRightRadius": {
+      "tooltip": "The bottom-Right radius",
+      "placeholder": "eg.: 5",
+      "info": " 5, 10, 15, etc ",
+      "type": "number",
+      "field":"text"
+    },
+    "bottomLeftRadius": {
+      "tooltip": "The bottom-Left radius",
+      "placeholder": "eg.: 5",
+      "info": " 5, 10, 15, etc ",
+      "type": "number",
+      "field":"text"
+    },
+     "topLeftRadius": {
+      "tooltip": "The top-Left radius",
+      "placeholder": "eg.: 5",
+      "info": " 5, 10, 15, etc ",
+      "type": "number",
+      "field":"text"
+    },
+    "backgroundBlendMode": {
+      "tooltip": "The blend mode applied to the color or gradient background of the box.",
+      "placeholder": "eg.: colorBurn",
+      "info": "colorBurn, dstATop, dst, dstIn, etc.",
+      "type": "string",
+      "field":["colorBurn", "dstATop","dst","dstIn","dstOut","clear","color","colorDodge","darken","difference","multiple","saturation","lighten"]
+    },
+    "boxShadowColor": {
+      "tooltip": "The color of the shadow below the widget.",
+      "placeholder": "eg.: ffc6ff",
+      "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+      "type": "color",
+      "field":"text"
+    },
+    "boxShadowOffset": {
+      "tooltip": "The displacement of the shadow from the casting element.",
+      "placeholder": "eg.: zero",
+      "info": "infinite, zero",
+      "type": "string",
+      "field":["infinite","zero"]
+    },
+    "boxShadowBlurRadius": {
+      "tooltip": "The standard deviation of the Gaussian to convolve with the shadow's shape.",
+      "placeholder": "eg.: 5",
+      "info": " 5, 10, 15, etc ",
+      "type": "number",
+      "field":"text"
+    },
+    "boxShadowSpreadRadius": {
+      "tooltip": "The amount the box should be inflated prior to applying the blur.",
+      "placeholder": "eg.: 5",
+      "info": " 5, 10, 15, etc ",
+      "type": "number",
+      "field":"text"
+    },
+    "borderSideWidth": {
+      "tooltip": "The width of this side of the border, in logical pixels.",
+      "placeholder": "eg.: 5",
+      "info": " 5, 10, 15, etc ",
+      "type": "number",
+      "field":"text"
+    },
+    "borderSideColor": {
+      "tooltip": "The color of this side of the border",
+      "placeholder": "eg.: ffc6ff",
+      "info": "ffc6ff, 000000, 2a9d8f, e5989b, 1d3557, 48bfe3 etc...You can visit https://coolors.co/palettes/trending to see more  examples",
+      "type": "color",
+      "field":"text"
+    },
+    "borderSideStyle": {
+      "tooltip": "To omit a side, set style to BorderStyle.none. This skips painting the border, but the border still has a width.",
+      "placeholder": "eg.: solid",
+      "info": "solid or none",
+      "type": "string",
+      "field":["solid","none"]
+    }
+ 
+}

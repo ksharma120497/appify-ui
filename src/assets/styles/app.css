@@ -1,0 +1,108 @@
+.App {
+  min-height: 100vh;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
+    url(../img/purplebg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  font-family: "Raleway", sans-serif;
+}
+
+.ant-input-affix-wrapper,
+.ant-input-group-addon,
+.ant-select-selector {
+  height: 35px !important;
+  border-radius: 5px;
+}
+.ant-select-selector {
+  border-radius: 5px !important;
+}
+.ant-input-affix-wrapper {
+  height: 35px !important;
+  outline: none;
+}
+.ant-collapse {
+  background-color: transparent !important;
+  border-radius: 12px;
+}
+.ant-collapse-content {
+  /* background-color: transparent !important; */
+  background-color: #5a008b31;
+}
+.ant-collapse-header {
+  color: white !important;
+  /* background-color: #3e006b; */
+  background-color: #5a008b;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.flex-item {
+  text-align: left !important;
+  padding: 0.5rem !important;
+  background-color: #33b5e5;
+  border: 2px solid #fff;
+  color: #fff;
+}
+::-webkit-scrollbar {
+  width: 0px !important;
+}
+.inlineLabel {
+  display: inline-flex;
+  position: relative;
+  left: 0.9rem;
+  background-color: white;
+  top: 0.35rem;
+  width: 10.5rem;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+.ant-popover-inner {
+  border-radius: 5px;
+  background-color: rgb(228, 221, 255);
+}
+
+.ant-message {
+  margin-top: 88vh;
+  margin-left: -37vw;
+}
+
+.ant-input-group-addon {
+  width: 170px;
+}
+.ant-collapse > .ant-collapse-item:last-child,
+.ant-collapse > .ant-collapse-item:last-child > .ant-collapse-header {
+  border-radius: 12px;
+}
+
+.ant-btn :hover {
+  opacity: 0.9;
+}
+
+.ant-drawer-header {
+  background-color: #8c46b371;
+}
+.ant-drawer-body {
+  background-color: #510079a1;
+}
+.ant-pagination-simple .ant-pagination-simple-pager input {
+  color: black;
+  border-radius: 20px;
+  width: 38px;
+}
+
+.ant-pagination-simple .ant-pagination-prev .ant-pagination-item-link,
+.ant-pagination-simple .ant-pagination-next .ant-pagination-item-link {
+  background-color: white;
+  border-radius: 20px;
+}
