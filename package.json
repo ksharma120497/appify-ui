@@ -17,7 +17,7 @@
     "react-hook-form": "^6.12.2",
     "react-redux": "^7.2.2",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.1",
+    "react-scripts": "^5.0.1",
     "react-speech-recognition": "^3.6.0",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
@@ -25,10 +25,10 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "../../Documents/Accenture Laptop Files/Flutter/node_modules/.bin/react-scripts start",
-    "build": "../../Documents/Accenture Laptop Files/Flutter/node_modules/.bin/react-scripts build",
-    "test": "../../Documents/Accenture Laptop Files/Flutter/node_modules/.bin/react-scripts test",
-    "eject": "../../Documents/Accenture Laptop Files/Flutter/node_modules/.bin/react-scripts eject"
+    "start": "./node_modules/.bin/react-scripts start",
+    "build": "./node_modules/.bin/react-scripts build",
+    "test": "./node_modules/.bin/react-scripts test",
+    "eject": "./node_modules/.bin/react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
